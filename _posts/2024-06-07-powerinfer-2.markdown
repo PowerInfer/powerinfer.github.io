@@ -30,6 +30,8 @@ Place some evaluation result here
 
 ## Models
 
-PowerInfer is a model-system co-design solution that requires strong predictable sparsity at the model level. Currently, mainstream models primarily use the SwiGLU structure, which does not exhibit strong predictable sparsity. To enhance this property, we have made certain modifications to the models. We introduce two new models: TurboSparse-Mistral 7B and TurboSparse-Mixtral 47B. These models are modified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also stronger predictable sparsity.
+PowerInfer is a model-system co-design solution that requires strong predictable sparsity at the model level. Currently, mainstream models primarily use the SwiGLU structure, which does not exhibit strong predictable sparsity. To enhance this property, we have made certain modifications to the models.
+
+We introduce two new models: TurboSparse-Mistral 7B and TurboSparse-Mixtral 47B. These models are modified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also stronger predictable sparsity. Notbly, our models are trained with 150B tokens.这里突出一下150B,成本不高
 
 Figure here.
