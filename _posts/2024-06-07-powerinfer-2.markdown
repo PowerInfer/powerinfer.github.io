@@ -34,16 +34,13 @@ PowerInfer-2 is fast with:
 
 One notable advantage of PowerInfer-2 is its significant reduction in memory usage. To demonstrate the effectiveness of PowerInfer-2, we imposed various memory constraints on the TurboSparse-Mixtral model and compared the decoding speeds of PowerInfer-2, LLM in a Flash, and llama.cpp. The results clearly show that PowerInfer-2 significantly outperforms the other frameworks.
 
-<img src="../figures/memory-speed.png" alt="avatar" width="300" height="200"/>
+<img src="../figures/memory-speed.svg" alt="Memory usage vs. Speed" class="centered-image">
 
 Another advantage of PowerInfer-2 is its improved inference speed. Whether in full in-memory scenarios or offloading scenarios, PowerInfer-2 significantly outperforms other frameworks, particularly on smartphones.
 
-<img src="../figures/in-memory-decode.png" alt="avatar" width="300" height="200"/>
- Decoding speeds of \sys{}, llama.cpp, and MLC-LLM on TurboSparse-Mistral-7B with different offloading setups.
-        ``50\% offload'' means 50\% model weights of FFN blocks are offloaded to flash storage.
-        ``No offload'' means all model parameters are resident in memory.
-        A red label of ``\texttt{×}'' indicates an execution failure due to the lack of weight offloading support.
+<img src="../figures/in-memory-decode.png" alt="Full in-memory decoding speed" class="centered-image">
 
+Decoding speeds of \sys{}, llama.cpp, and MLC-LLM on TurboSparse-Mistral-7B with different offloading setups. "50\% offload" means 50\% model weights of FFN blocks are offloaded to flash storage. "No offload" means all model parameters are resident in memory. A red label of x indicates an execution failure due to the lack of weight offloading support.
 
 ## Models
 
@@ -51,4 +48,15 @@ PowerInfer is a model-system co-design solution that requires strong predictable
 
 We introduce two new models: TurboSparse-Mistral-7B and TurboSparse-Mixtral-47B. These models are sparsified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also higher predictable sparsity. Notbly, our models are trained with just 150B tokens within just 0.1M dollars.
 
-<img src="../figures/takeaway.png" alt="avatar" width="300" height="200"/>
+<img src="../figures/takeaway.png" alt="Takeaway" class="centered-image">
+
+<style>
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+}
+</style>
