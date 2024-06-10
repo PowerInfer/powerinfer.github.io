@@ -3,6 +3,7 @@ layout: post
 title:  "PowerInfer-2:"
 date:   2024-06-03 03:00:45 +0000
 categories: jekyll update
+permalink: /v2/
 ---
 ## TL;DR
 
