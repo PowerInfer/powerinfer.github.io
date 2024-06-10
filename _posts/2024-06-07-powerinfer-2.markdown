@@ -7,7 +7,7 @@ permalink: /v2/
 ---
 ## TL;DR
 
-Today we're thrilled to introduce our efficient inference framework for smartphones, PowerInfer-2. We support up to Mixtral 47B MoE models with a speed of 11.1 tokens/s, up to 22x speedup compared with other state-of-the-art framework. For 7B models, even we just place 50% model weight on the phones, we still have the SOTA speed! 
+Today, we're excited to introduce PowerInfer-2, our highly optimized inference framework designed specifically for smartphones. PowerInfer-2 supports up to Mixtral 47B MoE models, achieving an impressive speed of 11.68 tokens per second, which is up to 23 times faster than other state-of-the-art frameworks. Even with 7B models, by placing just 50% of the FFN weights on the phones, PowerInfer-2 still maintains state-of-the-art speed!
 
 Demo here.
 
