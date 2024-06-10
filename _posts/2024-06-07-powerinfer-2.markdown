@@ -40,7 +40,7 @@ Another advantage of PowerInfer-2 is its improved inference speed. Whether in fu
 
 <img src="../figures/in-memory-decode.png" alt="Full in-memory decoding speed" class="centered-image">
 
-Decoding speeds of \sys{}, llama.cpp, and MLC-LLM on TurboSparse-Mistral-7B with different offloading setups. "50\% offload" means 50\% model weights of FFN blocks are offloaded to flash storage. "No offload" means all model parameters are resident in memory. A red label of x indicates an execution failure due to the lack of weight offloading support.
+Decoding speeds of PowerInfer-2, llama.cpp, and MLC-LLM on TurboSparse-Mistral-7B with different offloading setups. "50% offload" means 50% model weights of FFN blocks are offloaded to flash storage. "No offload" means all model parameters are resident in memory. A red label of ⨉ indicates an execution failure due to the lack of weight offloading support.
 
 ## Models
 
