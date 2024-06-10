@@ -13,7 +13,7 @@ Demo here.
 
 ## Background
 
-The trend of deploying large models on mobile devices is becoming increasingly evident. Google has introduced AI Core, enabling the deployment of Gemini Nano on smartphones. Various smartphone manufacturers are also exploring ways to implement large models on mobile devices to enhance data privacy and other benefits. However, the models currently runnable on mobile devices are quite small and consume significant memory, which severely limits the application scenarios for large models.
+The trend of deploying large models on mobile devices is rapidly gaining interest. Google has introduced AI Core, enabling the deployment of Gemini Nano on smartphones. Various smartphone manufacturers are also exploring ways to implement large models on mobile devices to enhance data privacy and other benefits. However, the models currently runnable on mobile devices are relatively small and consume significant memory, severely limiting the application scenarios for large models.
 
 ## Features
 
@@ -33,6 +33,6 @@ Place some evaluation result here
 
 PowerInfer is a model-system co-design solution that requires strong predictable sparsity at the model level. Currently, mainstream models primarily use the SwiGLU structure, which does not exhibit strong predictable sparsity. To enhance this property, we have made certain modifications to the models.
 
-We introduce two new models: TurboSparse-Mistral 7B and TurboSparse-Mixtral 47B. These models are modified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also stronger predictable sparsity. Notbly, our models are trained with 150B tokens.这里突出一下150B,成本不高
+We introduce two new models: TurboSparse-Mistral-7B and TurboSparse-Mixtral-47B. These models are sparsified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also higher predictable sparsity. Notbly, our models are trained with just 150B tokens within just 0.1M dollars.
 
 Figure here.
