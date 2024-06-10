@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PowerInfer-2:"
+title:  "PowerInfer-2: Fast Large Language Model Inference on a Smartphone"
 date:   2024-06-03 03:00:45 +0000
 categories: jekyll update
 permalink: /v2/
@@ -9,7 +9,12 @@ permalink: /v2/
 
 Today, we're excited to introduce PowerInfer-2, our highly optimized inference framework designed specifically for smartphones. PowerInfer-2 supports up to Mixtral 47B MoE models, achieving an impressive speed of 11.68 tokens per second, which is up to 23 times faster than other state-of-the-art frameworks. Even with 7B models, by placing just 50% of the FFN weights on the phones, PowerInfer-2 still maintains state-of-the-art speed!
 
-Demo here.
+{% raw %}
+<video controls style="width: 75%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <source src="../videos/PowerInfer-2-Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+{% endraw %}
 
 ## Background
 
