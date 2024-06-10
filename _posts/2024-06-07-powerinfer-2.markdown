@@ -27,7 +27,12 @@ PowerInfer-2 is fast with:
 
 ## Evaluation
 
-Place some evaluation result here
+One notable advantage of PowerInfer-2 is its significant reduction in memory usage. To demonstrate the effectiveness of PowerInfer-2, we imposed various memory constraints on the TurboSparse-Mixtral model and compared the decoding speeds of PowerInfer-2, LLM in a Flash, and llama.cpp. The results clearly show that PowerInfer-2 significantly outperforms the other frameworks.
+<img src="../figures/memory-speed.png" alt="avatar" width="300" height="200"/>
+
+Another advantage of PowerInfer-2 is its improved inference speed. Whether in full in-memory scenarios or offloading scenarios, PowerInfer-2 significantly outperforms other frameworks, particularly on smartphones.
+<img src="../figures/in-memory-decode.png" alt="avatar" width="300" height="200"/>
+
 
 ## Models
 
