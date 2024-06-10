@@ -35,4 +35,4 @@ PowerInfer is a model-system co-design solution that requires strong predictable
 
 We introduce two new models: TurboSparse-Mistral-7B and TurboSparse-Mixtral-47B. These models are sparsified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also higher predictable sparsity. Notbly, our models are trained with just 150B tokens within just 0.1M dollars.
 
-Figure here.
+<img src="../figures/takeaway.png" alt="avatar" width="300" height="200"/>
