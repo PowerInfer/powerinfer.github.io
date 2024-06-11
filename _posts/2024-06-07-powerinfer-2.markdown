@@ -39,7 +39,8 @@ One notable advantage of PowerInfer-2 is its significant reduction in memory usa
 <img src="../figures/memory-speed.svg" alt="Memory usage vs. Speed" class="centered-image">
 
 Another advantage of PowerInfer-2 is its improved inference speed. Whether in full in-memory scenarios or offloading scenarios, PowerInfer-2 significantly outperforms other frameworks, particularly on smartphones.
-PowerInfer-2's techniques can save nearly **40%** of memory usage while achieving the **faster** inference speed as llama.cpp and MLC-LLM.
+
+For 7B LLM, PowerInfer-2's techniques can save nearly **40%** of memory usage while achieving the **faster** inference speed as llama.cpp and MLC-LLM.
 
 <img src="../figures/in-memory-decode.png" alt="Full in-memory decoding speed" class="centered-image">
 
