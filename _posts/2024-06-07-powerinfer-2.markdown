@@ -49,8 +49,8 @@ Decoding speeds of PowerInfer-2, llama.cpp, and MLC-LLM on TurboSparse-Mistral-7
 
 PowerInfer is a model-system co-design solution that requires strong predictable sparsity at the model level. Currently, mainstream models primarily use the SwiGLU structure, which does not exhibit strong predictable sparsity. To enhance this property, we have made certain modifications to the models.
 
-We introduce two new models: TurboSparse-Mistral-7B and TurboSparse-Mixtral-47B. These models are sparsified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also higher predictable sparsity. Notbly, our models are trained with just 150B tokens within just 0.1M dollars.
-See more technical details in our [TurboSparse paper](https://arxiv.org/abs/2406.05955).
+We introduce two new models: TurboSparse-Mistral-7B and TurboSparse-Mixtral-47B. These models are sparsified versions of Mistral and Mixtral, respectively, ensuring not only enhanced model performance but also higher predictable sparsity. Notbly, our models are trained with just 150B tokens within just 0.1M dollars. Our models are release at <https://huggingface.co/PowerInfer>.
+More technical details in our [TurboSparse paper](https://arxiv.org/abs/2406.05955).
 <img src="../figures/takeaway.png" alt="Takeaway" class="centered-image">
 
 <style>
