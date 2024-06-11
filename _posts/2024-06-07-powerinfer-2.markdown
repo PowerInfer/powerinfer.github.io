@@ -15,6 +15,7 @@ Today, we're excited to introduce PowerInfer-2, our highly optimized inference f
   Your browser does not support the video tag.
 </video>
 {% endraw %}
+<sub>The speed in the video is not the fastest speed of powerinfer-2 because of overhead introduced by the rendering etc.</sub>
 
 ## Background
 
