@@ -18,7 +18,7 @@ Today, we're excited to introduce PowerInfer-2, our highly optimized inference f
 
 ## Background
 
-The trend of deploying large models on mobile devices is rapidly gaining interest. Google has introduced AI Core, enabling the deployment of Gemini Nano on smartphones. Various smartphone manufacturers are also exploring ways to implement large models on mobile devices to enhance data privacy and other benefits. However, the models currently runnable on mobile devices are relatively small and consume significant memory, severely limiting the application scenarios for large models.
+The trend of deploying large models on mobile devices is rapidly gaining interest. Google has introduced AI Core, enabling the deployment of Gemini Nano on smartphones. Additionally, Apple has integrated a **rumored** 3B model in iOS 18. Various smartphone manufacturers are also exploring ways to implement large models on mobile devices to enhance data privacy and other benefits. However, the models currently runnable on mobile devices are relatively small and consume significant memory, severely limiting the application scenarios for large models.
 
 ## Features
 
